@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            display: layout(masonry);
+            --padding: 5;
+            --columns: 4;
+        }
+    </style>
+    <title>CSS Houdini Layout Demo</title>
+</head>
+
+<body>
+    <script>
+        if (CSS.layoutWorklet) {
+            CSS.layoutWorklet.addModule('masonry.js');
+        }
+    </script>
+
+    <div><img src="https://dummyimage.com/310x200" /></div>
+    <div><img src="https://dummyimage.com/320x400" /></div>
+    <div><img src="https://dummyimage.com/330x200" /></div>
+    <div><img src="https://dummyimage.com/340x400" /></div>
+    <div><img src="https://dummyimage.com/350x220" /></div>
+    <div><img src="https://dummyimage.com/360x400" /></div>
+    <div><img src="https://dummyimage.com/370x400" /></div>
+    <div><img src="https://dummyimage.com/380x280" /></div>
+    <div><img src="https://dummyimage.com/390x600" /></div>
+    <div><img src="https://dummyimage.com/310x400" /></div>
+    <div><img src="https://dummyimage.com/320x250" /></div>
+    <div><img src="https://dummyimage.com/330x460" /></div>
+    <div><img src="https://dummyimage.com/340x270" /></div>
+    <div><img src="https://dummyimage.com/300x410" /></div>
+    <div><img src="https://dummyimage.com/300x280" /></div>
+    <div><img src="https://dummyimage.com/300x600" /></div>
+    <div><img src="https://dummyimage.com/300x400" /></div>
+    <div><img src="https://dummyimage.com/300x250" /></div>
+    <div><img src="https://dummyimage.com/300x420" /></div>
+    <div><img src="https://dummyimage.com/300x210" /></div>
+    <div><img src="https://dummyimage.com/300x400" /></div>
+    <div><img src="https://dummyimage.com/300x280" /></div>
+    <div><img src="https://dummyimage.com/300x260" /></div>
+    <div><img src="https://dummyimage.com/300x230" /></div>
+    <div><img src="https://dummyimage.com/300x470" /></div>
+    <div><img src="https://dummyimage.com/300x400" /></div>
+    <div><img src="https://dummyimage.com/300x280" /></div>
+    <div><img src="https://dummyimage.com/300x280" /></div>
+</body>
