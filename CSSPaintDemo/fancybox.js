@@ -6,8 +6,6 @@ class FancyBox{
     paint(ctx, size, props){
         const color = props.get( '--boxColor' );
         const lineWidth = props.get( '--boxWidth' ).value;
-        const color = 'red';
-        const lineWidth = 3;
         
         const width = size.width - lineWidth;
         const height = size.height - lineWidth;
